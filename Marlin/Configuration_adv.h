@@ -2096,12 +2096,12 @@
   #define HYBRID_THRESHOLD
 
   #define X_HYBRID_THRESHOLD     100  // [mm/s]
-  #define X2_HYBRID_THRESHOLD    100
-  #define Y_HYBRID_THRESHOLD     100
-  #define Y2_HYBRID_THRESHOLD    100
-  #define Z_HYBRID_THRESHOLD       3
-  #define Z2_HYBRID_THRESHOLD      3
-  #define Z3_HYBRID_THRESHOLD      3
+  #define X2_HYBRID_THRESHOLD    X_HYBRID_THRESHOLD // delta printer
+  #define Y_HYBRID_THRESHOLD     X_HYBRID_THRESHOLD // delta printer
+  #define Y2_HYBRID_THRESHOLD    X_HYBRID_THRESHOLD // delta printer
+  #define Z_HYBRID_THRESHOLD     X_HYBRID_THRESHOLD // delta printer
+  #define Z2_HYBRID_THRESHOLD    X_HYBRID_THRESHOLD // delta printer
+  #define Z3_HYBRID_THRESHOLD    X_HYBRID_THRESHOLD // delta printer
   #define E0_HYBRID_THRESHOLD     30
   #define E1_HYBRID_THRESHOLD     30
   #define E2_HYBRID_THRESHOLD     30
