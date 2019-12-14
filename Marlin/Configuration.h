@@ -1084,13 +1084,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#if ANYCUBIC_PROBE_VERSION == 2
-  #define NOZZLE_TO_PROBE_OFFSET { 0, 0, -16.8 }
-#elif ANYCUBIC_PROBE_VERSION == 1
-  #define NOZZLE_TO_PROBE_OFFSET { 0, 0, -19.0 }
-#else
-  #define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }
-#endif
+#define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 5
